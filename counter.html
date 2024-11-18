@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .counterholder{
+            padding:20px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            gap:20px;
+            width:200px;
+            height:auto;
+            background-color: white;
+            box-shadow: 2px 2px 3px #555,-2px -2px 5px #555, 2px 2px 3px #555,-2px -2px 5px #555;
+            margin-top: 150px;
+            margin-left: 400px;
+        }
+        #in{
+            background-color: aqua;
+        }
+        #de{
+            background-color: darkgoldenrod;
+        }
+        #reset{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="counterholder">
+        <h1>CounterAPP</h1>
+        <p id="count">0</p>
+        <button id="in">increment</button>
+        <button id="de">decrement</button>
+        <button id="reset">reset</button>
+    </div>
+        <script src="counter.js"></script>
+    
+</body>
+</html>
